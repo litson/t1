@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "moduleResolution": "Node",
+    "declarationDir": "./dist/types",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "lib": ["DOM", "esnext"],
+    "esModuleInterop": false,
+    "resolveJsonModule": true,
+    "types": [
+      "@types/node",
+      "@types/webpack",
+      "postcss",
+      "@types/jest"
+    ]
+  },
+  "include": ["src/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "evelvate",
+    "examples"
+  ]
+}
