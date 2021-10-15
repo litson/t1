@@ -1,0 +1,32 @@
+{
+  "name": "b",
+  "version": "0.0.1-alpha.6",
+  "description": "图片压缩CLI",
+  "bin": {
+    "Mim": "./bin/Mim.js"
+  },
+  "scripts": {
+    "dev": "sudo npm link & npx tsc -w"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "consola": "^2.15.3",
+    "crypto": "^1.0.1",
+    "fast-glob": "^3.2.5",
+    "fs-extra": "^10.0.0",
+    "globby": "^11.0.4",
+    "imagemin": "^7.0.0",
+    "imagemin-jpegtran": "^7.0.0",
+    "imagemin-pngquant": "^9.0.2",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/nedb": "^1.8.11",
+    "@types/node": "^15.12.4",
+    "prettier": "^2.3.1",
+    "typescript": "^4.3.4"
+  }
+}
